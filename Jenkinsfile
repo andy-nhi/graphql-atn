@@ -77,7 +77,7 @@ spec:
         - name: HOME
           value: /home/devops
         - name: ENVIRONMENT_NAME
-          value: graphql-atn
+          value: inventory-atn
         - name: BUILD_NUMBER
           value: ${env.BUILD_NUMBER}
 """
