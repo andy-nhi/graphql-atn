@@ -76,8 +76,8 @@ spec:
           value: .tmp
         - name: HOME
           value: /home/devops
-        - name: graphql-atn
-          value: dev
+        - name: ENVIRONMENT_NAME
+          value: graphql-atn
         - name: BUILD_NUMBER
           value: ${env.BUILD_NUMBER}
 """
